@@ -1,0 +1,35 @@
+GCp-Google Cloud Platform:
+  Cloud Function- complete Servelr-less executiom computing Function as a Service
+  AppEngine: fully managed PAS frame work
+  Google-Kuberneties: managed container CAS container applciation
+  Compute Engine: IAS users and organization manage their solutions themselves.
+
+  Storage:
+   
+   Cloud Bigtable:
+   Cloud Storage:
+   Cloud SQL:
+   Cloud spanner:
+   Firestore:
+
+   BigData:
+         BigQuery:
+         Pub/Sub:
+         Dataflow:
+         Dataproc
+         Notebooks:
+    Machione Learning:
+        Vision API:
+        Vertex AI:
+        Speech to Text API:
+        Cloud Translation API:
+        Cloud Natural Language API:
+
+Spring Cloud GCP:
+      stand-alone spring based applciation.
+      pre-configured starters.
+      very little code 
+
+      It Provides Pub/Sub,cloud storage , Cloud spanner, Firestore
+      https://github.com/spring-cloud/spring-cloud-gcp 
+      

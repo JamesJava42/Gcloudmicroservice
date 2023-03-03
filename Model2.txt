@@ -1,0 +1,26 @@
+Identify the components of the demo applciation and how they interact each other.
+Integrate a range of GCS in to java applocarions with spring boot.
+Deploy Spring Boot Java applications to app-Engine and GKubernetes Engine.
+Moniter deployed applications using the cloud Teace(Stack driver Trace).
+
+Demo applications:
+   Front appication:
+        GustBook service :
+            -Create : Name and MEssage 
+   Backend sevice:
+         store ne record forthe front-end
+
+Guestbook-UI ---->  Guestbook Service -----> DB(MySQL)
+|         |
+|         |
+V         V
+ZipKin    RabbitMQ
+
+
+curl -s http://localhost:8081/guestbookMessages
+cd ~/guestbook-frontend
+./mvnw -q spring-boot:run
+curl -s http://localhost:8081/guestbookMessages 
+curl -s http://localhost:8081/guestbookMessages \
+  | jq -r '._embedded.guestbookMessages[] | {name: .name, message: .message}'
+

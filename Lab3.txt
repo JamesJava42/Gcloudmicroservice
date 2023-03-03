@@ -1,0 +1,11 @@
+    distributed tracing across multiple services using Stack Driver Trace 
+            as a trace collection and analysis platform
+    authentication so that you can implement managed access to Google Cloud Services from Java applications
+    Trace is a distributed tracing system that collects latency data from your applications and displays it in the GCP console.
+           You can track or request, propagate through your application, and receive detailed near real time performance insights. 
+    Trace automatically analyzes all of your application's traces to generate in-depth latency reports to surface performance degradations 
+           and can capture traces from all of your REMs, containers, or App Engine projects
+    The Trace SDK is currently available for Java, Node.js, Ruby and Go, and the Stack Driver Trace API 
+            can be used to submit and retrieve trace data from any source. 
+    A Zipkin collector is also available that allows Zipkin tracers to submit data to trace. 
+            Projects running on App Engine are automatically captured.
